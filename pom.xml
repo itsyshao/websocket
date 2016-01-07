@@ -77,6 +77,19 @@
       <artifactId>slf4j-api</artifactId>
       <version>${slf4j-api.version}</version>
     </dependency>
+    
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-nop</artifactId>
+      <version>${slf4j-api.version}</version>
+    </dependency>
+    
+    <dependency>
+     <groupId>org.glassfish.tyrus.bundles</groupId>
+     <artifactId>tyrus-standalone-client</artifactId>
+     <version>1.9</version>
+</dependency>
+    
   </dependencies>
 
   <distributionManagement>
